@@ -12,7 +12,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-import net.vhati.modmanager.core.ModFileInfo;
 import net.vhati.modmanager.ui.table.ChecklistTableModel;
 import net.vhati.modmanager.ui.table.TableRowTransferHandler;
 
@@ -111,7 +110,6 @@ public class ChecklistTablePanel<T> extends JPanel {
 
 		return results;
 	}
-
 
 	public void toggleAllItemSelection() {
 		int selectedCount = 0;

@@ -9,7 +9,6 @@ public class ModInfo {
 	private String fileHash = "???";
 	private String version = "???";
 
-
 	public void setTitle( String s ) { this.title = s; }
 	public void setAuthor( String s ) { this.author = s; }
 	public void setURL( String s ) { this.url = s; }
